@@ -4,4 +4,4 @@ navigator.geolocation.getCurrentPosition(position => {
     document.getElementById("locale").innerText = `latitude: ${position.coords.latitude}, longitude: ${position.coords.longitude}`
 }, error => {
     console.error("Error getting location: ", error);
-});
+});///
